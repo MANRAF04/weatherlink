@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #dddddd;
+}
